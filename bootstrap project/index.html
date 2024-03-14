@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Woods - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Harry Woods</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home"> Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills"> Skills </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects"> Projects </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact"> Contact </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1>Harry Woods</h1>
+                    <p>Student in Computing</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                <h2>Skills</h2>
+                <p>Here are some of my key skills:</p>
+            </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="skill-item">
+                        <i class="fas fa-code"></i>
+                        <h4>Web Development</h4>
+                        <p>HTML, CSS, PHP</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="skill-item">
+                        <i class="fas fa-database"></i>
+                        <h4>Database Design</h4>
+                        <p>MySQL</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="skill-item">
+                        <i class="fas fa-laptop-code"></i>
+                        <h4>Programming</h4>
+                        <p>Python</p>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+<section id="projects" class="projects">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Projects</h2>
+                <p>Check out some of my projects:</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="card">
+                    <img src="images/music.jpg" class="card-img-top" alt="Music">
+                    <div class="card-body">
+                        <h5 class="card-title">Music</h5>
+                        <p class="card-text">Description of Music Project. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card">
+                    <img src="images/film.jpg" class="card-img-top" alt="Films">
+                    <div class="card-body">
+                        <h5 class="card-title">Films</h5>
+                        <p class="card-text">Description of Films Project. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card">
+                    <img src="images/Student.jpg" class="card-img-top" alt="student enviroment system">
+                    <div class="card-body">
+                        <h5 class="card-title">student enviroment system</h5>
+                        <p class="card-text">Description of student enviroment system Project. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="contact" class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Contact Me</h2>
+                <p>Feel free to contact me:</p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <form id="contactForm" action="#" method="post">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Your Email</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" class="form-control" id="subject" name="subject" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Your Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+
+</html>
